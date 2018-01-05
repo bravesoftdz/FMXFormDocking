@@ -1,0 +1,75 @@
+object fmsales: Tfmsales
+  Left = 0
+  Top = 0
+  Caption = 'Form3'
+  ClientHeight = 317
+  ClientWidth = 233
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Layoutsales: TLayout
+    Align = Client
+    Size.Width = 233.000000000000000000
+    Size.Height = 317.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object ToolBar1: TToolBar
+      Size.Width = 233.000000000000000000
+      Size.Height = 40.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      object Text1: TText
+        Align = Client
+        Size.Width = 233.000000000000000000
+        Size.Height = 40.000000000000000000
+        Size.PlatformDefault = False
+        Text = 'Sales'
+        TextSettings.Font.Size = 16.000000000000000000
+      end
+    end
+    object Rectangle1: TRectangle
+      Align = Client
+      Fill.Color = xFFFD1616
+      Size.Width = 233.000000000000000000
+      Size.Height = 277.000000000000000000
+      Size.PlatformDefault = False
+      object Grid1: TGrid
+        CanFocus = True
+        ClipChildren = True
+        Position.X = 16.000000000000000000
+        Position.Y = 112.000000000000000000
+        Size.Width = 161.000000000000000000
+        Size.Height = 121.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        Viewport.Width = 157.000000000000000000
+        Viewport.Height = 96.000000000000000000
+      end
+      object Edit9: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        TabOrder = 1
+        Position.X = 16.000000000000000000
+        Position.Y = 64.000000000000000000
+      end
+      object Edit11: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        TabOrder = 2
+        Position.X = 16.000000000000000000
+        Position.Y = 88.000000000000000000
+      end
+      object Edit1: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        TabOrder = 3
+        Position.X = 16.000000000000000000
+        Position.Y = 40.000000000000000000
+      end
+      object Button1: TButton
+        Position.X = 16.000000000000000000
+        Position.Y = 16.000000000000000000
+        TabOrder = 4
+        Text = 'Button1'
+      end
+    end
+  end
+end
